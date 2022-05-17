@@ -36,9 +36,13 @@ function App() {
     }
 
     const getRandomBird = () => {
-        const index = Math.floor(Math.random() * allBirdData.length);
-        const selectedBird: Bird = allBirdData[index];
-        setBird(selectedBird);
+        let chooseAnother = true;
+        while (chooseAnother) {
+            const index = Math.floor(Math.random() * allBirdData.length);
+            const selectedBird = allBirdData[index];
+            chooseAnother = selectedBird.code === prevAnswer?.code; // don't pick the same bird again
+            setBird(selectedBird);
+        }
     }
 
     const handleSelection = (selectedBird: Bird) => {
@@ -61,7 +65,8 @@ function App() {
 
     return (
         <div className="App">
-            <GameControls gameInProgress={gameInProgress} prevAnswer={prevAnswer} prevAnswerCorrect={prevAnswerCorrect} onClickStop={() => endGame()} onClickStart={() => startGame()}/>
+            <GameControls gameInProgress={gameInProgress} prevAnswer={prevAnswer} prevAnswerCorrect={prevAnswerCorrect} onClickStop={() => endGame()}
+                          onClickStart={() => startGame()}/>
             <GameScore gameScore={gameScore}/>
             <GameQuestion gameInProgress={gameInProgress} allBirds={allBirdData} bird={bird} onSelect={handleSelection}/>
         </div>
