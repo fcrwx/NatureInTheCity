@@ -1,0 +1,232 @@
+[
+  {
+    "code": "COGR",
+    "name": "Common Grackle",
+    "calls": [
+      {
+        "type": "Call",
+        "src": "/birds/COGR/call.mp3"
+      }
+    ]
+  },
+  {
+    "code": "RWBB",
+    "name": "Red-winged Blackbird",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/RWBB/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/RWBB/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/RWBB/alarm.mp3"
+      },
+      {
+        "type": "Flight",
+        "src": "/birds/RWBB/flight.mp3"
+      }
+    ]
+  },
+  {
+    "code": "WEME",
+    "name": "Western Meadowlark",
+    "calls": [
+      {
+        "type": "Call",
+        "src": "/birds/WEME/call.mp3"
+      }
+    ]
+  },
+  {
+    "code": "BCCH",
+    "name": "Black-capped Chickadee",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/BCCH/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/BCCH/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/BCCH/alarm.mp3"
+      }
+    ]
+  },
+  {
+    "code": "BLJA",
+    "name": "Blue Jay",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/BLJA/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/BLJA/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/BLJA/alarm.mp3"
+      }
+    ]
+  },
+  {
+    "code": "AMGO",
+    "name": "American Goldfinch",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/AMGO/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/AMGO/call.mp3"
+      }
+    ]
+  },
+  {
+    "code": "HOFI",
+    "name": "House Finch",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/HOFI/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/HOFI/call.mp3"
+      }
+    ]
+  },
+  {
+    "code": "WEKI",
+    "name": "Western Kingbird",
+    "calls": [
+      {
+        "type": "Call",
+        "src": "/birds/WEKI/call.mp3"
+      }
+    ]
+  },
+  {
+    "code": "SOSP",
+    "name": "Song Sparrow",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/SOSP/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/SOSP/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/SOSP/alarm.mp3"
+      },
+      {
+        "type": "Flight",
+        "src": "/birds/SOSP/flight.mp3"
+      }
+    ]
+  },
+  {
+    "code": "BARS",
+    "name": "Barn Swallow",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/BARS/song.mp3"
+      }
+    ]
+  },
+  {
+    "code": "AMRO",
+    "name": "American Robin",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/AMRO/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/AMRO/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/AMRO/alarm.mp3"
+      }
+    ]
+  },
+  {
+    "code": "YWAR",
+    "name": "Yellow Warbler",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/YWAR/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/YWAR/call.mp3"
+      },
+      {
+        "type": "Flight",
+        "src": "/birds/YWAR/flight.mp3"
+      }
+    ]
+  },
+  {
+    "code": "DOWO",
+    "name": "Downy Woodpecker",
+    "calls": [
+      {
+        "type": "Drumming",
+        "src": "/birds/DOWO/drumming.mp3"
+      }
+    ]
+  },
+  {
+    "code": "NOFL",
+    "name": "Northern Flicker",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/NOFL/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/NOFL/call.mp3"
+      },
+      {
+        "type": "Begging",
+        "src": "/birds/NOFL/begging.mp3"
+      }
+    ]
+  },
+  {
+    "code": "HOWR",
+    "name": "House Wren",
+    "calls": [
+      {
+        "type": "Song",
+        "src": "/birds/HOWR/song.mp3"
+      },
+      {
+        "type": "Call",
+        "src": "/birds/HOWR/call.mp3"
+      },
+      {
+        "type": "Alarm",
+        "src": "/birds/HOWR/alarm.mp3"
+      }
+    ]
+  }
+]
